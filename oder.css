@@ -1,0 +1,14 @@
+.needs-validation{
+    margin-top: 50px;
+}
+body::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: url('https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?cs=srgb&dl=pexels-craytive-1456733.jpg&fm=jpg');
+    background-size: cover;
+    opacity:0.7;
+    z-index: -1;
